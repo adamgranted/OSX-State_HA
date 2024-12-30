@@ -29,7 +29,7 @@ I'm open to contributions if there's a better way to approach this. Lock/Unlock 
 ## Hammerspoon Configuration
 
 1. Enable "Start at Login" for Hammerspoon. *Preferences > “Launch Hammerspoon at login."*
-2. Open Hammerspoon’s config file. Click the Hammerspoon menu bar icon > Open Config or create/edit ~/.hammerspoon/init.lua.
+2. Open Hammerspoon’s config file. Click the Hammerspoon menu bar icon > Open Config or create/edit `~/.hammerspoon/init.lua`.
 3. Paste the following code, adjusting your HA server instance and credentials:
    
     ```
