@@ -15,13 +15,13 @@ I'm open to contributions if there's a better way to approach this. Lock/Unlock 
    
    ```
     homeassistant:
-    customize:
-        binary_sensor.macos_lock_state:
-        friendly_name: "macOS Lock State"
-        device_class: lock  # shows lock/unlock icon
-        binary_sensor.macos_screensaver:
-        friendly_name: "macOS Screensaver"
-        icon: mdi:television
+       customize:
+           binary_sensor.macos_lock_state:
+           friendly_name: "macOS Lock State"
+           device_class: lock  # shows lock/unlock icon
+           binary_sensor.macos_screensaver:
+           friendly_name: "macOS Screensaver"
+           icon: mdi:television
    ```
    
 3. Restart HA
