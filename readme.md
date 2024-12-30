@@ -1,5 +1,5 @@
 
-# OSX Screen State for Home Assistant
+# macOS Screen State for Home Assistant
 This is a simple configuration to report the screen lock state and screesaver state of macOS back to Home Assistant. It requires [Hammersppon](https://github.com/Hammerspoon/hammerspoon) and a long lived HA token. Hammerspoon handles the state tracking of OSX and provides the necessary hooks we need to report back to HA.
 
 I'm open to contributions if there's a better way to approach this. Lock/Unlock OSX hooks are primarily deprecated at this point, this seemed to be the best alternative.
