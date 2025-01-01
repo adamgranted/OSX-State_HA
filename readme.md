@@ -34,7 +34,7 @@ I'm open to contributions if there's a better way to approach this. Lock/Unlock 
    
 3. Restart HA
 
-**NOTE: The entity will not appear in HA until after the state past being posted via the REST API**
+**NOTE: The entity will not appear in HA until after the state has been posted via the REST API**
 
 ## Hammerspoon Configuration
 
